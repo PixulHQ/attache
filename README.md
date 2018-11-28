@@ -1,13 +1,16 @@
 # attaché
 
+
+Forked from https://github.com/kanongil/attache
+
 A [hapi.js](http://hapijs.com/) plugin that registers a [Consul](http://consul.io/) service.
 
-[![Build Status](https://travis-ci.org/kanongil/attache.svg?branch=master)](https://travis-ci.org/kanongil/attache)
+[![Build Status](https://travis-ci.org/PixulHQ/attache.svg?branch=master)](https://travis-ci.org/PixulHQ/attache)
 
 ## Example
 
 ```js
-const Attache = require('attache');
+const Attache = require('@pixul/attache');
 const Hapi = require('hapi');
 
 const server = Hapi.Server();
@@ -15,7 +18,7 @@ const server = Hapi.Server();
 const provision = async () => {
 
     await server.register({
-        register: require('attache'),
+        register: require('@pixul/attache'),
         options: {
             service: {
                 name: 'myservice'
@@ -53,7 +56,7 @@ The service can be discovered using the standard Consul interfaces (eg. DNS or H
 
 ## Usage
 
-Install using `npm install attache`, and register with Hapi using `server.register()`.
+Install using `npm install @pixul/attache`, and register with Hapi using `server.register()`.
 
 ### Service registration & de-registration
 

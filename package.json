@@ -1,6 +1,6 @@
 {
-  "name": "attache",
-  "version": "3.1.1",
+  "name": "@pixul/attache",
+  "version": "3.1.2",
   "description": "Hapi plugin to register as a Consul service",
   "main": "lib/index.js",
   "scripts": {
@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kanongil/attache.git"
+    "url": "git+https://github.com/PixulHQ/attache.git"
   },
   "bugs": {
-    "url": "https://github.com/kanongil/attache/issues"
+    "url": "https://github.com/PixulHQ/attache/issues"
   },
-  "homepage": "https://github.com/kanongil/attache#readme"
+  "homepage": "https://github.com/PixulHQ/attache#readme"
 }

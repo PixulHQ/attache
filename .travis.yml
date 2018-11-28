@@ -3,7 +3,7 @@ dist: trusty
 
 env:
   - CONSUL=0.9.3
-  - CONSUL=1.0.1
+  - CONSUL=1.4.0
 
 before_install:
   - curl -L "https://releases.hashicorp.com/consul/${CONSUL}/consul_${CONSUL}_linux_amd64.zip" -o /tmp/consul-bin.zip
