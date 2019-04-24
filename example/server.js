@@ -80,6 +80,7 @@ server.register({
         if (state === 'aborted') {
             err = new Error('aborted');
         }
+
         state = 'started';
 
         if (err) {
